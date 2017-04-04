@@ -1,0 +1,61 @@
+﻿/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    font-family: "Roboto", "sans-serif";
+    font-weight: 400;
+    margin-bottom: 90px;
+
+    .container {
+        padding: 20px 15px 0;
+    }
+}
+
+.body-content {
+    margin-top: 20px;
+}
+
+.font-container > .row {
+    line-height: 200%;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.container-fluid {
+    max-width: 1185px;
+}
+
+
+:host {
+    display: block;
+}
+
+header {
+    background-color: #fff;
+    padding: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+}
